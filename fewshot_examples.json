@@ -1,0 +1,48 @@
+[
+  {
+    "text": "The ImageNet dataset is widely used in computer vision research and Artificial Intelligence and achieves a 95.6% accuracy rate now.",
+    "spans": [
+      {
+        "text": "ImageNet",
+        "is_entity": true,
+        "label": "DATASET",
+        "reason": "is a well-known dataset in computer vision"
+      },
+      {
+        "text": "accuracy",
+        "is_entity": true,
+        "label": "METRIC",
+        "reason": "Accuracy is a metric used to evaluate experimental results."
+      },
+      {
+        "text": "95.6%",
+        "is_entity": false,
+        "label": "==NONE==",
+        "reason": "95.6% is a specific numerical value and not a scientific entity."
+      },
+      {
+        "text": "dataset",
+        "is_entity": false,
+        "label": "==NONE==",
+        "reason": "dataset is a general term, not a scientific entity."
+      }
+    ]
+  },
+  {
+    "text": "TensorFlow is a popular open source tool for machine learning.",
+    "spans": [
+      {
+        "text": "TensorFlow",
+        "is_entity": true,
+        "label": "TOOL",
+        "reason": "is a software tool used for machine learning"
+      },
+      {
+        "text": "open source tool",
+        "is_entity": false,
+        "label": "==NONE==",
+        "reason": "a general type of tool, not a scientific entity"
+      }
+    ]
+  }
+]
