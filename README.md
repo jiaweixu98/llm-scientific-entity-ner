@@ -30,3 +30,5 @@ This task involves Named Entity Recognition (NER) for Large Language Models (LLM
 - **Entity 5:** Type: KEYWORD, Name: detecting model bias
 - **Entity 6:** Type: KEYWORD, Name: identifying recurring patterns
 - **Entity 7:** Type: KEYWORD, Name: linking neurons to model behavior
+
+![image](files:entity_distribution.png)
