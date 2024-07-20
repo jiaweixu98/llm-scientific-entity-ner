@@ -32,4 +32,4 @@ This task involves Named Entity Recognition (NER) for Large Language Models (LLM
 - **Entity 7:** Type: KEYWORD, Name: linking neurons to model behavior
 
 
-![entity distribution]([files:entity_distribution.png](https://github.com/jiaweixu98/llm-scientific-entity-ner/blob/main/entity_distribution.png))
+![entity distribution](https://github.com/jiaweixu98/llm-scientific-entity-ner/blob/main/entity_distribution.png)
