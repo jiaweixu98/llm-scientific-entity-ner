@@ -1,10 +1,14 @@
 from tqdm import tqdm
 import pandas as pd
 
+
+# Make sure update_filtered_all_arxiv['v1_date'] is in datetime format;
+# *****IMPORTANT****** After read the dataframe, make sure update_filtered_all_arxiv['categories_set'] is a set of strings.
+
 # Create a list to store valid control papers
 valid_controls = []
-llm_related = filtered_all_arxiv[filtered_all_arxiv['is_llm_related'] == 1]
-non_llm_related = filtered_all_arxiv[filtered_all_arxiv['is_llm_related'] == 0]
+llm_related = update_filtered_all_arxiv[update_filtered_all_arxiv['is_llm_related'] == 1]
+non_llm_related = update_filtered_all_arxiv[update_filtered_all_arxiv['is_llm_related'] == 0]
 
 # Precompute time window (2 months)
 time_window = pd.to_timedelta(60, unit='days')
